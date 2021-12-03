@@ -1,0 +1,40 @@
+@media screen and (max-width:1199px) {
+    #headerBG{
+        padding: 2% 15%;
+    }
+    #about{
+        margin: 5% 15%;
+    }
+    #getInvolved{
+        padding: 2% 15%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #about{
+        margin: 5% 5%;
+    }
+    #getInvolved{
+        padding: 2% 5%;
+    }
+}
+
+@media screen and (max-width:767px){
+    h1{
+        font-size:2em;
+    }
+    footer{
+        height:20vh;
+    }
+    #about{
+        margin: 2%;
+    }
+    #getInvolved{
+        padding: 2%;
+    }
+    #headerBG{
+        p{
+            padding: 2%;
+        }
+    }
+}

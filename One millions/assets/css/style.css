@@ -1,0 +1,138 @@
+@font-face {
+  font-family: glyphicons;
+  src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: robotoSlab;
+  src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+body {
+  font-family: lato;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-family: robotoSlab;
+  font-size: 3.2em;
+}
+
+h2 {
+  font-family: robotoSlab;
+  text-transform: uppercase;
+  margin: 2% 0;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+h3 {
+  font-family: robotoSlab;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.boldFont {
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 10%;
+  font-family: robotoSlab;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-item {
+  padding: 0 1%;
+}
+
+#headerBG {
+  text-align: center;
+  background-image: url(../images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 2% 30%;
+}
+#headerBG h1 {
+  margin-bottom: 5%;
+}
+#headerBG button {
+  font-size: 1.5em;
+}
+#headerBG img {
+  margin-top: 5%;
+}
+
+#about {
+  margin: 5% 30%;
+}
+
+#getInvolved {
+  padding: 2% 20%;
+}
+#getInvolved i {
+  font-size: 4em;
+  padding: 5% 0;
+}
+#getInvolved button {
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
+#getInvolved .col {
+  padding: 2%;
+}
+
+footer {
+  height: 30vh;
+}
+
+@media screen and (max-width: 1199px) {
+  #headerBG {
+    padding: 2% 15%;
+  }
+
+  #about {
+    margin: 5% 15%;
+  }
+
+  #getInvolved {
+    padding: 2% 15%;
+  }
+}
+@media screen and (max-width: 991px) {
+  #about {
+    margin: 5% 5%;
+  }
+
+  #getInvolved {
+    padding: 2% 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  footer {
+    height: 20vh;
+  }
+
+  #about {
+    margin: 2%;
+  }
+
+  #getInvolved {
+    padding: 2%;
+  }
+
+  #headerBG p {
+    padding: 2%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
